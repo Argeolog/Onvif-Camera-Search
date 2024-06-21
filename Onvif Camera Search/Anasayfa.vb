@@ -5,6 +5,9 @@ Imports System.Net.Sockets
 Imports System.Text
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports System.Xml
+Imports System.Threading
+Imports System.IO
+
 
 Public Class Anasayfa
 
@@ -56,7 +59,7 @@ Public Class Anasayfa
 		Kamera_Listview.Columns.Add("Versiyon", 100, HorizontalAlignment.Left)
 		Kamera_Listview.Columns.Add("SerialNo", 100, HorizontalAlignment.Left)
 
-		Ara_Buton.PerformClick()
+		'Ara_Buton.PerformClick()
 
 	End Sub
 
@@ -285,11 +288,9 @@ Public Class Anasayfa
 		item.SubItems.Add(MacAdres)
 		item.SubItems.Add(Versionx)
 		item.SubItems.Add(SerialNo)
-
 		Kamera_Listview.Items.Add(item)
 
 	End Sub
-
 
 
 	Private Sub Timeout_Timer_Tick(sender As Object, e As EventArgs) Handles Timeout_Timer.Tick
@@ -326,5 +327,10 @@ Public Class Anasayfa
 		End If
 
 
+	End Sub
+
+
+	Private Sub Saat_Ayarla_Buton_Click(sender As Object, e As EventArgs) Handles Saat_Ayarla_Buton.Click
+		Saat_Ayarlari.Show()
 	End Sub
 End Class
