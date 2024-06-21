@@ -8,5 +8,5 @@ Aynı ip Adresine sahip kameralarda, Kırmızı olarak işaretlenir.
 
 ![image](https://github.com/Argeolog/Onvif-Camera-Search/assets/104566717/612948c8-02a1-47a6-8132-a2d04abb821f)
 
-Onvif Üzerinden kameraların saatini okuyabilir ve ayarlabilirsiniz.
+Onvif Üzerinden kameraların saatini okuyabilir ve ayarlayabilirsiniz.
 
