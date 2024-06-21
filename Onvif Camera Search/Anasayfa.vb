@@ -7,6 +7,8 @@ Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports System.Xml
 Imports System.Threading
 Imports System.IO
+Imports System.Data.SqlTypes
+Imports System.Web
 
 
 Public Class Anasayfa
@@ -59,7 +61,7 @@ Public Class Anasayfa
 		Kamera_Listview.Columns.Add("Versiyon", 100, HorizontalAlignment.Left)
 		Kamera_Listview.Columns.Add("SerialNo", 100, HorizontalAlignment.Left)
 
-		'Ara_Buton.PerformClick()
+		Ara_Buton.PerformClick()
 
 	End Sub
 
@@ -178,9 +180,12 @@ Public Class Anasayfa
 				Next
 			End If
 
-			If YeniKamera.Marka.Contains("Dahua") OrElse YeniKamera.Marka.Contains("Hikvision") Then
+			YeniKamera.Marka = HttpUtility.UrlDecode(YeniKamera.Marka)
+
+			If YeniKamera.Marka.Contains("Dahua") OrElse YeniKamera.Marka.Contains("Hikvision") OrElse YeniKamera.Marka.Contains("HIKVISION") Then
 				Exit Sub
 			End If
+
 
 			Dim xAddrsNode As XmlNode = xmlDoc.SelectSingleNode("//d:XAddrs", namespaceManager)
 			If xAddrsNode IsNot Nothing Then
