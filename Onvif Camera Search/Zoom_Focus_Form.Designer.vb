@@ -153,10 +153,9 @@ Partial Class Zoom_Focus_Form
 		'
 		Me.Sifre_Text.Location = New System.Drawing.Point(79, 96)
 		Me.Sifre_Text.Name = "Sifre_Text"
-		Me.Sifre_Text.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
 		Me.Sifre_Text.Size = New System.Drawing.Size(234, 20)
 		Me.Sifre_Text.TabIndex = 4
-		Me.Sifre_Text.Text = "hds2018hds"
+		Me.Sifre_Text.Text = "admin123"
 		'
 		'ip_Adres_Text
 		'

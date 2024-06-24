@@ -29,34 +29,3 @@ E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.xml
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.pdb
 E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\LibVLCSharp.dll
 E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\LibVLCSharp.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.exe.config
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.exe
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.pdb
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\LibVLCSharp.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\SharpGL.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\SharpGL.WinForms.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Buffers.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Memory.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\SharpGL.SceneGraph.dll
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\LibVLCSharp.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\SharpGL.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\SharpGL.WinForms.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Buffers.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Memory.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\bin\Debug\SharpGL.SceneGraph.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.vbproj.AssemblyReference.cache
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Anasayfa.resources
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Resources.resources
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Saat_Ayarlari.resources
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Zoom_Focus_Form.resources
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.vbproj.GenerateResource.cache
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.vbproj.CoreCompileInputs.cache
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif Ca.0AD0E763.Up2Date
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.exe
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.xml
-C:\Users\Argeolog\Source\Repos\Onvif-Camera-Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.pdb
