@@ -295,6 +295,8 @@ Partial Class Saat_Ayarlari
 		Me.Controls.Add(Me.GroupBox3)
 		Me.Controls.Add(Me.GroupBox1)
 		Me.Controls.Add(Me.GroupBox2)
+		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+		Me.MaximizeBox = False
 		Me.Name = "Saat_Ayarlari"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Onvif Saat Ayarları"

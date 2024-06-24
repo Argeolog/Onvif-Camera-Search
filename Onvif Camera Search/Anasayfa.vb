@@ -338,4 +338,8 @@ Public Class Anasayfa
 	Private Sub Saat_Ayarla_Buton_Click(sender As Object, e As EventArgs) Handles Saat_Ayarla_Buton.Click
 		Saat_Ayarlari.Show()
 	End Sub
+
+	Private Sub Zoom_Focus_Buton_Click(sender As Object, e As EventArgs) Handles Zoom_Focus_Buton.Click
+		Zoom_Focus_Form.Show()
+	End Sub
 End Class

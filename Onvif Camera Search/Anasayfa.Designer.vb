@@ -27,6 +27,7 @@ Partial Class Anasayfa
 		Me.Kamera_Listview = New System.Windows.Forms.ListView()
 		Me.Timeout_Timer = New System.Windows.Forms.Timer(Me.components)
 		Me.Saat_Ayarla_Buton = New System.Windows.Forms.Button()
+		Me.Zoom_Focus_Buton = New System.Windows.Forms.Button()
 		Me.SuspendLayout()
 		'
 		'Ara_Buton
@@ -67,11 +68,22 @@ Partial Class Anasayfa
 		Me.Saat_Ayarla_Buton.Text = "Saat Ayarları"
 		Me.Saat_Ayarla_Buton.UseVisualStyleBackColor = True
 		'
+		'Zoom_Focus_Buton
+		'
+		Me.Zoom_Focus_Buton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+		Me.Zoom_Focus_Buton.Location = New System.Drawing.Point(296, 504)
+		Me.Zoom_Focus_Buton.Name = "Zoom_Focus_Buton"
+		Me.Zoom_Focus_Buton.Size = New System.Drawing.Size(136, 43)
+		Me.Zoom_Focus_Buton.TabIndex = 4
+		Me.Zoom_Focus_Buton.Text = "Zoom-Focus"
+		Me.Zoom_Focus_Buton.UseVisualStyleBackColor = True
+		'
 		'Anasayfa
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(800, 559)
+		Me.Controls.Add(Me.Zoom_Focus_Buton)
 		Me.Controls.Add(Me.Saat_Ayarla_Buton)
 		Me.Controls.Add(Me.Kamera_Listview)
 		Me.Controls.Add(Me.Ara_Buton)
@@ -86,4 +98,5 @@ Partial Class Anasayfa
 	Friend WithEvents Kamera_Listview As ListView
 	Friend WithEvents Timeout_Timer As Timer
 	Friend WithEvents Saat_Ayarla_Buton As Button
+	Friend WithEvents Zoom_Focus_Buton As Button
 End Class
