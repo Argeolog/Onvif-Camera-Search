@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Onvif_Camera_Search.Zoom_Focus_Form
+            Me.MainForm = Global.Onvif_Camera_Search.Anasayfa
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
