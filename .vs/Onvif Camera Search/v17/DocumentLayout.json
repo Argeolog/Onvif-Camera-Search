@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "E:\\Onvif Camera Search\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|e:\\onvif camera search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|e:\\onvif camera search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
@@ -45,6 +45,10 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
@@ -76,10 +80,6 @@
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Zoom_Focus_Form.vb",
@@ -87,7 +87,7 @@
               "RelativeDocumentMoniker": "Onvif Camera Search\\Zoom_Focus_Form.vb",
               "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb",
               "RelativeToolTip": "Onvif Camera Search\\Zoom_Focus_Form.vb",
-              "ViewState": "AQIAALwAAAAAAAAAAAAgwMoAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-24T17:12:40.899Z",
               "EditorCaption": ""
@@ -102,8 +102,7 @@
               "RelativeToolTip": "Onvif Camera Search\\Zoom_Focus_Form.Designer.vb",
               "ViewState": "AQIAANEAAAAAAAAAAAAAANgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-24T17:10:46.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T17:10:46.261Z"
             },
             {
               "$type": "Document",
@@ -114,8 +113,7 @@
               "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb [Design]",
               "RelativeToolTip": "Onvif Camera Search\\Zoom_Focus_Form.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-24T17:06:11.359Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-24T17:06:11.359Z"
             },
             {
               "$type": "Document",

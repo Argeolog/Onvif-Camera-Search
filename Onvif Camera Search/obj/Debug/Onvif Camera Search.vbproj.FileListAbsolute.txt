@@ -1,3 +1,15 @@
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.exe.config
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.exe
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.pdb
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.xml
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Buffers.dll
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Memory.dll
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Numerics.Vectors.dll
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Buffers.xml
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Memory.xml
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Numerics.Vectors.xml
+E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.vbproj.AssemblyReference.cache
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Anasayfa.resources
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Resources.resources
@@ -5,27 +17,7 @@ E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Saat_Ay
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif_Camera_Search.Zoom_Focus_Form.resources
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.vbproj.GenerateResource.cache
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.vbproj.CoreCompileInputs.cache
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.exe.config
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.exe
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.pdb
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\Onvif Camera Search.xml
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\SharpGL.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\SharpGL.WinForms.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Buffers.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Memory.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Numerics.Vectors.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\SharpGL.SceneGraph.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\SharpGL.xml
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\SharpGL.WinForms.xml
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Buffers.xml
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Memory.xml
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Numerics.Vectors.xml
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\SharpGL.SceneGraph.xml
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Ca.0AD0E763.Up2Date
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.exe
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.xml
 E:\Onvif Camera Search\Onvif Camera Search\obj\Debug\Onvif Camera Search.pdb
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\LibVLCSharp.dll
-E:\Onvif Camera Search\Onvif Camera Search\bin\Debug\LibVLCSharp.xml
