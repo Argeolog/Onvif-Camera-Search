@@ -192,7 +192,6 @@ Public Class Zoom_Focus_Form
 	Sub PTZ_Token_Al()
 		Try
 
-
 			Dim url As String = "http://" & ip_Adres_Text.Text & ":" & Port_Text.Text & "/onvif/device_service"
 			Dim request As HttpWebRequest = CType(WebRequest.Create(url), HttpWebRequest)
 			request.ContentType = "application/soap+xml; charset=utf-8"
@@ -203,7 +202,6 @@ Public Class Zoom_Focus_Form
 			{New Uri(url), "Digest", Credentials}
 		}
 			request.Credentials = CCache
-
 			Dim DataStr As String = $"<?xml version=""1.0"" encoding=""utf-8""?>
 <s:Envelope xmlns:s=""http://www.w3.org/2003/05/soap-envelope"" xmlns:trt=""http://www.onvif.org/ver10/media/wsdl"">
     <s:Body>
