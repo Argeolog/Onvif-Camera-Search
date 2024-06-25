@@ -50,23 +50,25 @@ Public Class Zoom_Focus_Form
 		Me.Player = New MediaPlayer(Me.LicVLCSharp)
 	End Sub
 
-
-	Private Sub Zoom_in_Buton_Click(sender As Object, e As EventArgs) Handles Zoom_in_Buton.Click
-		Zoom_Yap(0.1)
-	End Sub
-
-
-	Private Sub Zoom_out_Buton_Click(sender As Object, e As EventArgs) Handles Zoom_out_Buton.Click
-		Zoom_Yap(-0.1)
-	End Sub
-
 	Private Sub Focus_Buton_Click(sender As Object, e As EventArgs) Handles Focus_Buton.Click
-		Zoom_Yap(0)
+		If Surekli_Zoom_Checkbox.Checked = False Then
+			Zoom_Yap("0.0", Zoom_Type.islemYok)
+		End If
 	End Sub
 
+	Enum Zoom_Type
+		islemYok = -1
+		ZoomYap = 0
+		ZoomDurdur = 1
+	End Enum
 
-	Sub Zoom_Yap(ZoomDeger As Double)
 
+	Sub Zoom_Yap(ZoomDeger As String, ZoomType As Zoom_Type)
+
+		If PtzToken = "" Then
+			MsgBox("Kameraya Bağlı Değil veya PTZ Token Alınamadı!")
+			Exit Sub
+		End If
 
 
 		Try
@@ -83,42 +85,79 @@ Public Class Zoom_Focus_Form
 		}
 			request.Credentials = CCache
 
-			Dim DataStr As String = $"<?xml version=""1.0"" encoding=""UTF-8""?>
-             <SOAP-ENV:Envelope
-              xmlns:SOAP-ENV=""http://schemas.xmlsoap.org/soap/envelope/""
-			  xmlns:SOAP-ENC=""http://schemas.xmlsoap.org/soap/encoding/""
-			  xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""
-			  xmlns:xsd=""http://www.w3.org/2001/XMLSchema""
-			  xmlns:wsa=""http://schemas.xmlsoap.org/ws/2004/08/addressing""
-			  xmlns:wsdd=""http://schemas.xmlsoap.org/ws/2005/04/discovery""
-			  xmlns:wsa5=""http://www.w3.org/2005/08/addressing""
-			  xmlns:xmime=""http://tempuri.org/xmime.xsd""
-			  xmlns:tt=""http://www.onvif.org/ver10/schema""
-			  xmlns:ns3=""http://www.onvif.org/ver10/pacs""
-			  xmlns:tptz=""http://www.onvif.org/ver20/ptz/wsdl""
-			  xmlns:trt=""http://www.onvif.org/ver10/media/wsdl""
-			  xmlns:trv=""http://www.onvif.org/ver10/receiver/wsdl""
-			  xmlns:tse=""http://www.onvif.org/ver10/search/wsdl"">
-			<SOAP-ENV:Header>
-			 </SOAP-ENV:Header>
-			 <SOAP-ENV:Body>
-			   <tptz:RelativeMove>
-				<tptz:ProfileToken>{PtzToken}</tptz:ProfileToken>
-				<tptz:Translation>
-				 <tt:PanTilt x=""0.0"" y=""0.0"" space="""">
-				 </tt:PanTilt>
-				 <tt:Zoom x=""{ZoomDeger}"" space="""">
-				 </tt:Zoom>
-				</tptz:Translation>
-				<tptz:Speed>
-				 <tt:PanTilt x=""0.0"" y=""0.0"" space="""">
-				 </tt:PanTilt>
-				 <tt:Zoom x=""{ZoomDeger}"" space="""">
-				 </tt:Zoom>
-				</tptz:Speed>
-			   </tptz:RelativeMove>
-			 </SOAP-ENV:Body>
-			</SOAP-ENV:Envelope>"
+			Dim DataStr As String
+
+			If Surekli_Zoom_Checkbox.Checked = True Then
+
+				If ZoomType = Zoom_Type.ZoomYap Then
+
+					If ZoomDeger.Contains("-") Then
+						ZoomDeger = "-1.0"
+					Else
+						ZoomDeger = "1.0"
+					End If
+
+					DataStr = $"<?xml version=""1.0"" encoding=""UTF-8""?>
+							<SOAP-ENV:Envelope xmlns:SOAP-ENV=""http://www.w3.org/2003/05/soap-envelope"" xmlns:wsdl=""http://www.onvif.org/ver20/ptz/wsdl"" xmlns:tt=""http://www.onvif.org/ver10/schema"">
+							<SOAP-ENV:Header/>
+							<SOAP-ENV:Body>
+							<wsdl:ContinuousMove>
+							<wsdl:ProfileToken>{PtzToken}</wsdl:ProfileToken>
+							<wsdl:Velocity>
+							<tt:PanTilt x=""0.0"" y=""0.0"" space=""http://www.onvif.org/ver10/tptz/PanTiltSpaces/VelocityGenericSpace""/>
+							<tt:Zoom x=""{ZoomDeger}""/>
+							</wsdl:Velocity>
+							</wsdl:ContinuousMove>
+							</SOAP-ENV:Body>
+							</SOAP-ENV:Envelope>"
+
+				Else
+
+					DataStr = $"<?xml version=""1.0"" encoding=""UTF-8""?>
+								<SOAP-ENV:Envelope xmlns:SOAP-ENV=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:tptz=""http://www.onvif.org/ver20/ptz/wsdl"">
+								<SOAP-ENV:Header/>
+								<SOAP-ENV:Body>
+								<tptz:Stop>
+								<tptz:ProfileToken>{PtzToken}</tptz:ProfileToken>
+								<tptz:PanTilt>false</tptz:PanTilt>
+								<tptz:Zoom>false</tptz:Zoom>
+								</tptz:Stop>
+								</SOAP-ENV:Body>
+								</SOAP-ENV:Envelope>"
+
+				End If
+
+			Else
+
+
+
+				DataStr = $"<?xml version=""1.0"" encoding=""UTF-8""?>
+				        <SOAP-ENV:Envelope xmlns:SOAP-ENV=""http//schemas.xmlsoap.org/soap/envelope/"" xmlns:tptz=""http://www.onvif.org/ver20/ptz/wsdl"" xmlns:tt=""http://www.onvif.org/ver10/schema"">
+						<SOAP-ENV:Header>
+						</SOAP-ENV:Header>
+						<SOAP-ENV:Body>
+						<tptz:RelativeMove>
+						<tptz:ProfileToken>{PtzToken}</tptz:ProfileToken>
+						<tptz:Translation>
+						<tt:PanTilt x=""0.0"" y=""0.0"" space="""">
+						</tt:PanTilt>
+						<tt:Zoom x=""{ZoomDeger}"" space="""">
+						</tt:Zoom>
+						</tptz:Translation>
+						<tptz:Speed>
+						<tt:PanTilt x=""0.0"" y=""0.0"" space="""">
+						</tt:PanTilt>
+						<tt:Zoom x=""{ZoomDeger}"" space="""">
+						</tt:Zoom>
+						</tptz:Speed>
+						</tptz:RelativeMove>
+						</SOAP-ENV:Body>
+				  		</SOAP-ENV:Envelope>"
+
+			End If
+
+
+
 
 			Using streamWriter As New StreamWriter(request.GetRequestStream())
 				streamWriter.Write(DataStr)
@@ -292,4 +331,27 @@ Public Class Zoom_Focus_Form
 		gl.ClearColor(0, 0, 0, 0)
 	End Sub
 
+	Private Sub Zoom_in_Buton_MouseUp(sender As Object, e As MouseEventArgs) Handles Zoom_in_Buton.MouseUp
+		If Surekli_Zoom_Checkbox.Checked = True Then
+			Zoom_Yap("0.0", Zoom_Type.ZoomDurdur)
+		End If
+	End Sub
+
+	Private Sub Zoom_in_Buton_MouseDown(sender As Object, e As MouseEventArgs) Handles Zoom_in_Buton.MouseDown
+		Zoom_Yap("0.1", Zoom_Type.ZoomYap)
+	End Sub
+
+	Private Sub Zoom_out_Buton_MouseUp(sender As Object, e As MouseEventArgs) Handles Zoom_out_Buton.MouseUp
+		If Surekli_Zoom_Checkbox.Checked = True Then
+			Zoom_Yap("0.0", Zoom_Type.ZoomDurdur)
+		End If
+	End Sub
+
+	Private Sub Zoom_out_Buton_MouseDown(sender As Object, e As MouseEventArgs) Handles Zoom_out_Buton.MouseDown
+		Zoom_Yap("-0.1", Zoom_Type.ZoomYap)
+	End Sub
+
+	Private Sub Zoom_in_Buton_Click(sender As Object, e As EventArgs) Handles Zoom_in_Buton.Click
+
+	End Sub
 End Class

@@ -48,7 +48,7 @@ Public Class Anasayfa
 
 
 	Private Sub Anasayfa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+		Me.Text = "Dahua/Hikvision/No-Name (Onvif) Kamera Arama " & Application.ProductVersion
 		Kamera_Listview.View = View.Details
 		Kamera_Listview.Columns.Add("Sira", 50, HorizontalAlignment.Left)
 		Kamera_Listview.Columns.Add("Marka", 100, HorizontalAlignment.Left)

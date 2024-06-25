@@ -24,6 +24,10 @@ Partial Class Zoom_Focus_Form
 	Private Sub InitializeComponent()
 		Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Zoom_Focus_Form))
 		Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+		Me.Surekli_Zoom_Checkbox = New System.Windows.Forms.CheckBox()
+		Me.Label8 = New System.Windows.Forms.Label()
+		Me.Label7 = New System.Windows.Forms.Label()
+		Me.Label6 = New System.Windows.Forms.Label()
 		Me.Label5 = New System.Windows.Forms.Label()
 		Me.Label4 = New System.Windows.Forms.Label()
 		Me.Rtsp_Port = New System.Windows.Forms.TextBox()
@@ -40,9 +44,6 @@ Partial Class Zoom_Focus_Form
 		Me.Label2 = New System.Windows.Forms.Label()
 		Me.Vlc_Panel = New System.Windows.Forms.Panel()
 		Me.OpenGL_Control = New SharpGL.OpenGLControl()
-		Me.Label6 = New System.Windows.Forms.Label()
-		Me.Label7 = New System.Windows.Forms.Label()
-		Me.Label8 = New System.Windows.Forms.Label()
 		Me.GroupBox1.SuspendLayout()
 		Me.Vlc_Panel.SuspendLayout()
 		CType(Me.OpenGL_Control, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,6 +53,7 @@ Partial Class Zoom_Focus_Form
 		'
 		Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
 			Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+		Me.GroupBox1.Controls.Add(Me.Surekli_Zoom_Checkbox)
 		Me.GroupBox1.Controls.Add(Me.Label8)
 		Me.GroupBox1.Controls.Add(Me.Label7)
 		Me.GroupBox1.Controls.Add(Me.Label6)
@@ -75,6 +77,48 @@ Partial Class Zoom_Focus_Form
 		Me.GroupBox1.TabIndex = 10
 		Me.GroupBox1.TabStop = False
 		Me.GroupBox1.Text = "Kamera Ayarları"
+		'
+		'Surekli_Zoom_Checkbox
+		'
+		Me.Surekli_Zoom_Checkbox.AutoSize = True
+		Me.Surekli_Zoom_Checkbox.Checked = True
+		Me.Surekli_Zoom_Checkbox.CheckState = System.Windows.Forms.CheckState.Checked
+		Me.Surekli_Zoom_Checkbox.Location = New System.Drawing.Point(319, 12)
+		Me.Surekli_Zoom_Checkbox.Name = "Surekli_Zoom_Checkbox"
+		Me.Surekli_Zoom_Checkbox.Size = New System.Drawing.Size(188, 17)
+		Me.Surekli_Zoom_Checkbox.TabIndex = 21
+		Me.Surekli_Zoom_Checkbox.Text = "Butonu Bırakana Kadar Zoom Yap"
+		Me.Surekli_Zoom_Checkbox.UseVisualStyleBackColor = True
+		'
+		'Label8
+		'
+		Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+		Me.Label8.AutoSize = True
+		Me.Label8.Location = New System.Drawing.Point(705, 30)
+		Me.Label8.Name = "Label8"
+		Me.Label8.Size = New System.Drawing.Size(61, 13)
+		Me.Label8.TabIndex = 20
+		Me.Label8.Text = "Auto Focus"
+		'
+		'Label7
+		'
+		Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+		Me.Label7.AutoSize = True
+		Me.Label7.Location = New System.Drawing.Point(614, 30)
+		Me.Label7.Name = "Label7"
+		Me.Label7.Size = New System.Drawing.Size(54, 13)
+		Me.Label7.TabIndex = 19
+		Me.Label7.Text = "Zoom Out"
+		'
+		'Label6
+		'
+		Me.Label6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+		Me.Label6.AutoSize = True
+		Me.Label6.Location = New System.Drawing.Point(522, 30)
+		Me.Label6.Name = "Label6"
+		Me.Label6.Size = New System.Drawing.Size(48, 13)
+		Me.Label6.TabIndex = 18
+		Me.Label6.Text = "Zoom IN"
 		'
 		'Label5
 		'
@@ -106,7 +150,7 @@ Partial Class Zoom_Focus_Form
 		'
 		Me.Focus_Buton.Anchor = System.Windows.Forms.AnchorStyles.Right
 		Me.Focus_Buton.Image = CType(resources.GetObject("Focus_Buton.Image"), System.Drawing.Image)
-		Me.Focus_Buton.Location = New System.Drawing.Point(692, 38)
+		Me.Focus_Buton.Location = New System.Drawing.Point(692, 52)
 		Me.Focus_Buton.Name = "Focus_Buton"
 		Me.Focus_Buton.Size = New System.Drawing.Size(87, 57)
 		Me.Focus_Buton.TabIndex = 13
@@ -116,7 +160,7 @@ Partial Class Zoom_Focus_Form
 		'
 		Me.Zoom_in_Buton.Anchor = System.Windows.Forms.AnchorStyles.Right
 		Me.Zoom_in_Buton.Image = CType(resources.GetObject("Zoom_in_Buton.Image"), System.Drawing.Image)
-		Me.Zoom_in_Buton.Location = New System.Drawing.Point(506, 38)
+		Me.Zoom_in_Buton.Location = New System.Drawing.Point(506, 52)
 		Me.Zoom_in_Buton.Name = "Zoom_in_Buton"
 		Me.Zoom_in_Buton.Size = New System.Drawing.Size(87, 57)
 		Me.Zoom_in_Buton.TabIndex = 11
@@ -135,7 +179,7 @@ Partial Class Zoom_Focus_Form
 		'
 		Me.Zoom_out_Buton.Anchor = System.Windows.Forms.AnchorStyles.Right
 		Me.Zoom_out_Buton.Image = CType(resources.GetObject("Zoom_out_Buton.Image"), System.Drawing.Image)
-		Me.Zoom_out_Buton.Location = New System.Drawing.Point(599, 38)
+		Me.Zoom_out_Buton.Location = New System.Drawing.Point(599, 52)
 		Me.Zoom_out_Buton.Name = "Zoom_out_Buton"
 		Me.Zoom_out_Buton.Size = New System.Drawing.Size(87, 57)
 		Me.Zoom_out_Buton.TabIndex = 14
@@ -222,38 +266,8 @@ Partial Class Zoom_Focus_Form
 		Me.OpenGL_Control.OpenGLVersion = SharpGL.Version.OpenGLVersion.OpenGL2_1
 		Me.OpenGL_Control.RenderContextType = SharpGL.RenderContextType.DIBSection
 		Me.OpenGL_Control.RenderTrigger = SharpGL.RenderTrigger.Manual
-		Me.OpenGL_Control.Size = New System.Drawing.Size(796, 449)
+		Me.OpenGL_Control.Size = New System.Drawing.Size(793, 449)
 		Me.OpenGL_Control.TabIndex = 15
-		'
-		'Label6
-		'
-		Me.Label6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-		Me.Label6.AutoSize = True
-		Me.Label6.Location = New System.Drawing.Point(522, 16)
-		Me.Label6.Name = "Label6"
-		Me.Label6.Size = New System.Drawing.Size(48, 13)
-		Me.Label6.TabIndex = 18
-		Me.Label6.Text = "Zoom IN"
-		'
-		'Label7
-		'
-		Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-		Me.Label7.AutoSize = True
-		Me.Label7.Location = New System.Drawing.Point(614, 16)
-		Me.Label7.Name = "Label7"
-		Me.Label7.Size = New System.Drawing.Size(54, 13)
-		Me.Label7.TabIndex = 19
-		Me.Label7.Text = "Zoom Out"
-		'
-		'Label8
-		'
-		Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-		Me.Label8.AutoSize = True
-		Me.Label8.Location = New System.Drawing.Point(705, 16)
-		Me.Label8.Name = "Label8"
-		Me.Label8.Size = New System.Drawing.Size(61, 13)
-		Me.Label8.TabIndex = 20
-		Me.Label8.Text = "Auto Focus"
 		'
 		'Zoom_Focus_Form
 		'
@@ -293,4 +307,5 @@ Partial Class Zoom_Focus_Form
 	Friend WithEvents Label8 As Label
 	Friend WithEvents Label7 As Label
 	Friend WithEvents Label6 As Label
+	Friend WithEvents Surekli_Zoom_Checkbox As CheckBox
 End Class

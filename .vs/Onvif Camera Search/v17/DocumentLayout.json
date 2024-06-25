@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "E:\\Onvif Camera Search\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|e:\\onvif camera search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|e:\\onvif camera search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Onvif Camera Search||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\zoom_focus_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\saat_ayarlari.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -30,8 +34,7 @@
       "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\zoom_focus_form.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|E:\\Onvif Camera Search\\onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|solutionrelative:onvif camera search\\anasayfa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{46090306-AED9-454F-A68E-8C5D7B5F1D2D}|Onvif Camera Search\\Onvif Camera Search.vbproj|e:\\onvif camera search\\onvif camera search\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,10 +46,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -81,20 +80,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Zoom_Focus_Form.vb",
               "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb",
               "RelativeDocumentMoniker": "Onvif Camera Search\\Zoom_Focus_Form.vb",
               "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb",
               "RelativeToolTip": "Onvif Camera Search\\Zoom_Focus_Form.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAAN4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-24T17:12:40.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Zoom_Focus_Form.vb [Design]",
+              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb",
+              "RelativeDocumentMoniker": "Onvif Camera Search\\Zoom_Focus_Form.vb",
+              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb [Design]",
+              "RelativeToolTip": "Onvif Camera Search\\Zoom_Focus_Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-24T17:06:11.359Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Onvif Camera Search",
+              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Onvif Camera Search.vbproj",
+              "RelativeDocumentMoniker": "Onvif Camera Search\\Onvif Camera Search.vbproj",
+              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Onvif Camera Search.vbproj",
+              "RelativeToolTip": "Onvif Camera Search\\Onvif Camera Search.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-24T19:03:41.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Anasayfa.vb [Design]",
+              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb",
+              "RelativeDocumentMoniker": "Onvif Camera Search\\Anasayfa.vb",
+              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb [Design]",
+              "RelativeToolTip": "Onvif Camera Search\\Anasayfa.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-24T19:03:20.195Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Anasayfa.vb",
+              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb",
+              "RelativeDocumentMoniker": "Onvif Camera Search\\Anasayfa.vb",
+              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb",
+              "RelativeToolTip": "Onvif Camera Search\\Anasayfa.vb",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAWwFYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-24T19:03:22.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Zoom_Focus_Form.Designer.vb",
               "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.Designer.vb",
               "RelativeDocumentMoniker": "Onvif Camera Search\\Zoom_Focus_Form.Designer.vb",
@@ -106,52 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Zoom_Focus_Form.vb [Design]",
-              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb",
-              "RelativeDocumentMoniker": "Onvif Camera Search\\Zoom_Focus_Form.vb",
-              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Zoom_Focus_Form.vb [Design]",
-              "RelativeToolTip": "Onvif Camera Search\\Zoom_Focus_Form.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-24T17:06:11.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Onvif Camera Search",
-              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Onvif Camera Search.vbproj",
-              "RelativeDocumentMoniker": "Onvif Camera Search\\Onvif Camera Search.vbproj",
-              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Onvif Camera Search.vbproj",
-              "RelativeToolTip": "Onvif Camera Search\\Onvif Camera Search.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-24T19:03:41.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Anasayfa.vb [Design]",
-              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb",
-              "RelativeDocumentMoniker": "Onvif Camera Search\\Anasayfa.vb",
-              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb [Design]",
-              "RelativeToolTip": "Onvif Camera Search\\Anasayfa.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-24T19:03:20.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Anasayfa.vb",
-              "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb",
-              "RelativeDocumentMoniker": "Onvif Camera Search\\Anasayfa.vb",
-              "ToolTip": "E:\\Onvif Camera Search\\Onvif Camera Search\\Anasayfa.vb",
-              "RelativeToolTip": "Onvif Camera Search\\Anasayfa.vb",
-              "ViewState": "AQIAAD0BAAAAAAAAAAAkwFYBAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-24T19:03:22.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Saat_Ayarlari.vb [Design]",
               "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Saat_Ayarlari.vb",
               "RelativeDocumentMoniker": "Onvif Camera Search\\Saat_Ayarlari.vb",
@@ -162,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Saat_Ayarlari.vb",
               "DocumentMoniker": "E:\\Onvif Camera Search\\Onvif Camera Search\\Saat_Ayarlari.vb",
               "RelativeDocumentMoniker": "Onvif Camera Search\\Saat_Ayarlari.vb",
