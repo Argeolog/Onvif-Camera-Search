@@ -152,7 +152,7 @@ Partial Class Zoom_Focus_Form
 		Me.Focus_Buton.Image = CType(resources.GetObject("Focus_Buton.Image"), System.Drawing.Image)
 		Me.Focus_Buton.Location = New System.Drawing.Point(692, 52)
 		Me.Focus_Buton.Name = "Focus_Buton"
-		Me.Focus_Buton.Size = New System.Drawing.Size(87, 57)
+		Me.Focus_Buton.Size = New System.Drawing.Size(87, 64)
 		Me.Focus_Buton.TabIndex = 13
 		Me.Focus_Buton.UseVisualStyleBackColor = True
 		'
@@ -162,7 +162,7 @@ Partial Class Zoom_Focus_Form
 		Me.Zoom_in_Buton.Image = CType(resources.GetObject("Zoom_in_Buton.Image"), System.Drawing.Image)
 		Me.Zoom_in_Buton.Location = New System.Drawing.Point(506, 52)
 		Me.Zoom_in_Buton.Name = "Zoom_in_Buton"
-		Me.Zoom_in_Buton.Size = New System.Drawing.Size(87, 57)
+		Me.Zoom_in_Buton.Size = New System.Drawing.Size(87, 64)
 		Me.Zoom_in_Buton.TabIndex = 11
 		Me.Zoom_in_Buton.UseVisualStyleBackColor = True
 		'
@@ -181,7 +181,7 @@ Partial Class Zoom_Focus_Form
 		Me.Zoom_out_Buton.Image = CType(resources.GetObject("Zoom_out_Buton.Image"), System.Drawing.Image)
 		Me.Zoom_out_Buton.Location = New System.Drawing.Point(599, 52)
 		Me.Zoom_out_Buton.Name = "Zoom_out_Buton"
-		Me.Zoom_out_Buton.Size = New System.Drawing.Size(87, 57)
+		Me.Zoom_out_Buton.Size = New System.Drawing.Size(87, 64)
 		Me.Zoom_out_Buton.TabIndex = 14
 		Me.Zoom_out_Buton.UseVisualStyleBackColor = True
 		'

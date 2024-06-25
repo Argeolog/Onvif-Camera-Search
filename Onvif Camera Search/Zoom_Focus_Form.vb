@@ -51,9 +51,8 @@ Public Class Zoom_Focus_Form
 	End Sub
 
 	Private Sub Focus_Buton_Click(sender As Object, e As EventArgs) Handles Focus_Buton.Click
-		If Surekli_Zoom_Checkbox.Checked = False Then
-			Zoom_Yap("0.0", Zoom_Type.islemYok)
-		End If
+		Zoom_Yap("0.0", Zoom_Type.islemYok, False)
+
 	End Sub
 
 	Enum Zoom_Type
@@ -63,7 +62,7 @@ Public Class Zoom_Focus_Form
 	End Enum
 
 
-	Sub Zoom_Yap(ZoomDeger As String, ZoomType As Zoom_Type)
+	Sub Zoom_Yap(ZoomDeger As String, ZoomType As Zoom_Type, SurekliZoom As Boolean)
 
 		If PtzToken = "" Then
 			MsgBox("Kameraya Bağlı Değil veya PTZ Token Alınamadı!")
@@ -87,7 +86,7 @@ Public Class Zoom_Focus_Form
 
 			Dim DataStr As String
 
-			If Surekli_Zoom_Checkbox.Checked = True Then
+			If SurekliZoom = True Then
 
 				If ZoomType = Zoom_Type.ZoomYap Then
 
@@ -333,22 +332,22 @@ Public Class Zoom_Focus_Form
 
 	Private Sub Zoom_in_Buton_MouseUp(sender As Object, e As MouseEventArgs) Handles Zoom_in_Buton.MouseUp
 		If Surekli_Zoom_Checkbox.Checked = True Then
-			Zoom_Yap("0.0", Zoom_Type.ZoomDurdur)
+			Zoom_Yap("0.0", Zoom_Type.ZoomDurdur, Surekli_Zoom_Checkbox.Checked)
 		End If
 	End Sub
 
 	Private Sub Zoom_in_Buton_MouseDown(sender As Object, e As MouseEventArgs) Handles Zoom_in_Buton.MouseDown
-		Zoom_Yap("0.1", Zoom_Type.ZoomYap)
+		Zoom_Yap("0.1", Zoom_Type.ZoomYap, Surekli_Zoom_Checkbox.Checked)
 	End Sub
 
 	Private Sub Zoom_out_Buton_MouseUp(sender As Object, e As MouseEventArgs) Handles Zoom_out_Buton.MouseUp
 		If Surekli_Zoom_Checkbox.Checked = True Then
-			Zoom_Yap("0.0", Zoom_Type.ZoomDurdur)
+			Zoom_Yap("0.0", Zoom_Type.ZoomDurdur, Surekli_Zoom_Checkbox.Checked)
 		End If
 	End Sub
 
 	Private Sub Zoom_out_Buton_MouseDown(sender As Object, e As MouseEventArgs) Handles Zoom_out_Buton.MouseDown
-		Zoom_Yap("-0.1", Zoom_Type.ZoomYap)
+		Zoom_Yap("-0.1", Zoom_Type.ZoomYap, Surekli_Zoom_Checkbox.Checked)
 	End Sub
 
 	Private Sub Zoom_in_Buton_Click(sender As Object, e As EventArgs) Handles Zoom_in_Buton.Click
