@@ -336,10 +336,17 @@ Public Class Anasayfa
 
 
 	Private Sub Saat_Ayarla_Buton_Click(sender As Object, e As EventArgs) Handles Saat_Ayarla_Buton.Click
+		If Kamera_Listview.SelectedItems.Count > 0 Then
+			Saat_Ayarlari.ip_Adres_Text.Text = Kamera_Listview.SelectedItems(0).SubItems(3).Text
+		End If
 		Saat_Ayarlari.Show()
 	End Sub
 
 	Private Sub Zoom_Focus_Buton_Click(sender As Object, e As EventArgs) Handles Zoom_Focus_Buton.Click
+		If Kamera_Listview.SelectedItems.Count > 0 Then
+			Zoom_Focus_Form.ip_Adres_Text.Text = Kamera_Listview.SelectedItems(0).SubItems(3).Text
+		End If
+
 		Zoom_Focus_Form.Show()
 	End Sub
 End Class

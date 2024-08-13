@@ -211,7 +211,7 @@ Public Class Zoom_Focus_Form
 	Private Sub Baglan_Buton_Click(sender As Object, e As EventArgs) Handles Baglan_Buton.Click
 		Try
 			PtzToken = ""
-
+			Me.Text = "Zoom-Focus"
 			Me.Cursor = Cursors.WaitCursor
 			Me.Player.Stop()
 			Dim RtspAdres As String = $"rtsp://{Kullanici_Adi_Text.Text}:{Sifre_Text.Text}@{ip_Adres_Text.Text}:{Rtsp_Port.Text}"
@@ -220,6 +220,8 @@ Public Class Zoom_Focus_Form
 			Me.Player.Play()
 			If PtzToken = "" Then
 				MsgBox("PTZ Token Alınamadı !")
+			Else
+				Me.Text = "Token Alındı. Zoom Aktif."
 			End If
 		Catch ex As Exception
 			MsgBox(ex.Message)
@@ -351,6 +353,6 @@ Public Class Zoom_Focus_Form
 	End Sub
 
 	Private Sub Zoom_in_Buton_Click(sender As Object, e As EventArgs) Handles Zoom_in_Buton.Click
-
+		Zoom_Yap("0.1", Zoom_Type.ZoomYap, Surekli_Zoom_Checkbox.Checked)
 	End Sub
 End Class
